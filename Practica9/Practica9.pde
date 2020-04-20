@@ -62,9 +62,10 @@ void draw(){
   }
   textSize(15);
   textAlign(CENTER);
-  text("Espacio : cámara normal",(width/6),yText);
-  text("P : pixelar cámara",(width/6)*3,yText);
-  text("E : modo Spain", (width/6)*4 + 100,yText);
+  text("Espacio : cámara normal",(width/7),yText);
+  text("P : pixelar cámara",(width/7)*3,yText);
+  text("E : modo Spain", (width/7)*3.5 + 100,yText);
+  text("X : modo Xavier", (width/7)*5 + 100,yText);
 }
 
 void toRed(int start, int end){
